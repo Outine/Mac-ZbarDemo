@@ -1,3 +1,4 @@
+
 You might need a few dependencies from brew, figure it out, it worked for me from things I had previously installed. 
 Then compile with these cflags, as it will make the ./configure look at the brew directories. 
 
@@ -13,4 +14,7 @@ https://github.com/npinchot/zbar/commit/d3c1611ad2411fbdc3e79eb96ca704a63d30ae69
 
 And compile and install zbar. 
 
-Then my demos should work, but only on Mac with isight webcam or something. 
+Then my demos should work, but might depend on the mac's built in camera or something. 
+
+I'm using python and not C++ because python is nice and I understand it better than C - but some of the examples there give c code instead. 
+
