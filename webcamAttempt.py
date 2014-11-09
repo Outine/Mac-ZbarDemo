@@ -1,9 +1,7 @@
 #James horrible hacked attempt to find barcodes.
 
 import cv2
-from zxing import *
 
-zx = BarCodeReader()
 #barcode = zx.decode(testimage)
 
 cv2.namedWindow("preview")
